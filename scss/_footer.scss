@@ -1,0 +1,54 @@
+footer{
+    background-color:black ;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .divFooter{
+        margin-left: 2rem;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        .idiomaFooter{
+            display: flex;
+            flex-direction: column;
+            .h3Footer{
+                border-bottom: white solid 1px;
+            }
+            .itemFooter{
+                color: white;
+                &:hover{
+                    color: $color-spotify;
+                }
+            }
+        }
+        .asistenciaFooter{
+            display: flex;
+            flex-direction: column;
+            margin-left: 1rem;
+            .h3Footer{
+                border-bottom: white solid 1px;
+            }
+            .itemFooter{
+                color: white;
+                &:hover{
+                    color: $color-spotify;
+                }
+            }
+        }
+        .redesFooter{
+            display: flex;
+            flex-direction: column;
+            margin-left: 1rem;
+            .h3Footer{
+                border-bottom: white solid 1px;
+            }
+            .itemFooter{
+                color: white;
+                &:hover{
+                    color: $color-spotify;
+                }
+            }
+        }
+    }
+}

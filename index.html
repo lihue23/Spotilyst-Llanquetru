@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>SpotiLyst</title>
+</head>
+<body>
+    <header class="headerIndex">
+        <nav class="navbar navbar-expand-lg navbar-light navIndex">
+            <div class="container-fluid ">
+                <a class="navbar-brand navIndex text-light logo" href="#">Spotilyst</a>
+                <button class="navbar-toggler text-light bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-light"></span>
+                </button>
+            <div class="collapse navbar-collapse  " id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="nav-link active text-light navCategoria " aria-current="page" href="#"><p class="navCategoria" > Musica</p></a>
+                    <a class="nav-link text-light navCategoria" href="#"><p class="navCategoria" >Podcast</p></a>
+                    <a class="nav-link text-light navCategoria" href="#"><p class="navCategoria" >Audio Libro</p></a>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main class="mainIndex">
+        <h2 class="h2Novedades">Novedades</h2>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide w-60" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./imagenes/adele-30.jpg" class="d-block w-100 imgNovedades" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Adele: 30</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/ctangana.jpg" class="d-block w-100 imgNovedades" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/taylor.jpg" class="d-block w-100 imgNovedades" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div>
+            <button type="button" class="btn  buttonNovedades">Mas Novedades</button>
+          </div>
+    </main>
+    <section class="noticiasIndex">
+        <h2 class="h2Noticias">Ultimas Noticias</h2>
+        <div class="divNoticiaPadre">
+            <div class="divNoticia">
+                <img src="./imagenes/harry styles.webp" alt="" class="imgNoticia">
+                <div class="textoNoticia">
+                    <div class="encabezadoNoticia">
+                        <h2>Harry Styles afirma que 1D está lejos de reunirse</h2>
+                    </div>
+                    <div class="cuerpoNoticia">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsum et nemo soluta esse. Illo eaque libero voluptatum explicabo exercitationem.</p>
+                    </div>
+                    <div class="linkNoticia">
+                        <a href="">Leer mas...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="divNoticia">
+                <img src="./imagenes/bieber.jpg" alt="" class="imgNoticia">
+                <div class="textoNoticia">
+                    <div class="encabezadoNoticia">
+                        <h2>Justin Bieber anuncia que su próximo disco esta a punto de lanzarse</h2>
+                    </div>
+                    <div class="cuerpoNoticia">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsum et nemo soluta esse. Illo eaque libero voluptatum explicabo exercitationem.</p>
+                    </div>
+                    <div class="linkNoticia">
+                        <a href="">Leer mas...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="divNoticia">
+                <img src="./imagenes/The beatles.jpg" alt="" class="imgNoticia">
+                <div class="textoNoticia">
+                    <div class="encabezadoNoticia">
+                        <h2>Nuevas reediciones de algunos clásicos de The Beatles</h2>
+                    </div>
+                    <div class="cuerpoNoticia">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsum et nemo soluta esse. Illo eaque libero voluptatum explicabo exercitationem.</p>
+                    </div>
+                    <div class="linkNoticia">
+                        <a href="">Leer mas...</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button type="button" class="btn  buttonNoticias">Mas Noticias</button>
+            </div>
+        </div>
+    </section>
+    <aside class="asideIndex">
+        <div class="destacadoIndex">
+            <h2 class="h2Destacados">Destacado de la semana</h2>
+            <div class="divDestacados">
+                <img src="./imagenes/callejeros.jpg" alt="" class="imgDestacados">
+                <h3 class="textoDestacados">Callejeros: "Señales"(2006)</h3>
+                <a href="" class="linkDestacados">Leer mas...</a>
+            </div>
+        </div>
+        <div class="forosIndex">
+            <h2 class="h2Foros">Foros</h2>
+            <div class="listaForos">
+                <h3 class="h3Foros">Discusión General</h3>
+                <div class="generalForos">
+                    <p class="itemForos">¿Cuando sacará un nuevo disco Harry Styles?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto corrupti ad distinctio, odit itaque molestias dolorum voluptatibus nemo omnis velit? Voluptatem quaerat vel ipsum consequuntur rem! Commodi blanditiis hic necessitatibus?
+                    </p>
+                    <p class="itemForos">¿Cual es el mejor disco de los Beach Boys?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure assumenda ullam non vel nesciunt deleniti, molestias consequatur veritatis ex qui eum praesentium soluta quas quisquam? Fuga perspiciatis quae expedita. Totam!
+                    </p>
+                    <p class="itemForos">Elegimos la mejor consola para crear beats
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate eaque debitis molestias, voluptatum vero illum? Modi et veritatis dolores quis necessitatibus deserunt nihil eaque, cupiditate, ab, amet itaque eum doloribus?
+                    </p>
+                    <p class="itemForos">La mejor canción histórica de las peliculas de Disney
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptate tempore a quae dolorem harum dolor earum porro repellat possimus, repudiandae, tempora rerum eaque. Officia ex repudiandae dolorem? Sed, eaque.
+                    </p>
+                    <p class="itemForos">¿Sacarias Música al mercado solo por placer?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad odit consequuntur illum fuga laborum laboriosam architecto labore, incidunt recusandae fugiat.
+                    </p>
+                    <p class="itemForos">¿Quien fue el artista mas influyente del 2021?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae odit maxime id voluptatum molestias corporis doloribus architecto nemo sequi eligendi in vitae, veniam ad sapiente ullam magni dolorum quo voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium blanditiis ipsam, id nisi in omnis cumque doloremque, magni provident dolores repellendus debitis. Iure illo ex autem, amet nihil hic saepe!
+                    </p>
+                    <p class="itemForos">Spanglish ¿Es la nueva moda mezclar idiomas?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sequi officia alias aliquid dolore excepturi ducimus earum dicta impedit quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iure ad vel aspernatur debitis et delectus. Eveniet laudantium omnis expedita consequatur dolore quas minus esse veritatis rem, voluptatum voluptatibus ut!
+                    </p>
+                    <p class="itemForos">¿Esta el rock nacional verdaderamente muerto?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi temporibus minus odio quo iusto perspiciatis ipsa rerum asperiores provident debitis iure quae at assumenda id perferendis, repudiandae rem obcaecati officiis ad explicabo esse natus maxime nesciunt fugiat. Quaerat itaque soluta ad, corrupti praesentium voluptate? Animi, magni doloribus? Architecto, culpa dolores.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <footer>
+        <div class="divFooter">
+            <div class="idiomaFooter">
+                <h3 class="h3Footer">Idiomas</h3>
+                <a href="" class="itemFooter">Español</a>
+                <a href="" class="itemFooter">Ingles</a>
+                <a href="" class="itemFooter">Italiano</a>
+                <a href="" class="itemFooter">Portugues</a>
+                <a href="" class="itemFooter">Frances</a>
+            </div>
+            <div class="asistenciaFooter">
+                <h3 class="h3Footer">Asistencia</h3>
+                <a href="" class="itemFooter">Ayuda</a>
+                <a href="" class="itemFooter">Preguntas Frecuentes</a>
+            </div>
+            <div class="redesFooter">
+                <h3 class="h3Footer">Redes</h3>
+                <a href="" class="itemFooter">Twitter</a><a href="" class="itemFooter">Instagram</a><a href="" class="itemFooter">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

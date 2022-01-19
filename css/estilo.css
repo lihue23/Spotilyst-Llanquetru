@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.headerIndex .navIndex {
+  background-color: black; }
+  .headerIndex .navIndex .container-fluid .logo {
+    margin-left: 2rem; }
+  .headerIndex .navIndex .navbar-collapse .navbar-nav .navCategoria:hover {
+    color: #1ed760; }
+
+.mainIndex {
+  background-color: #96f0b6;
+  height: 600px;
+  display: flex;
+  flex-direction: column; }
+  .mainIndex .h2Novedades {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #202f72;
+    border-bottom: 1px solid #202f72; }
+  .mainIndex .carousel .carousel-inner .carousel-item .imgNovedades {
+    height: 25rem;
+    padding: 1rem; }
+
+.buttonNovedades {
+  color: #202f72;
+  width: 20rem;
+  margin-left: 7rem;
+  margin-top: 2rem;
+  height: 4rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  border-color: #202f72; }
+  .buttonNovedades:hover {
+    background-color: #202f72;
+    color: #96f0b6; }
+
+.noticiasIndex {
+  background-color: #F46EBE;
+  height: 900px;
+  display: flex;
+  flex-direction: column; }
+  .noticiasIndex .h2Noticias {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #202f72;
+    border-bottom: 1px solid #202f72; }
+  .noticiasIndex .divNoticiaPadre .divNoticia {
+    margin-right: 10px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #202f721c; }
+    .noticiasIndex .divNoticiaPadre .divNoticia .imgNoticia {
+      width: 10rem;
+      margin-left: 1rem;
+      margin-top: 1rem; }
+    .noticiasIndex .divNoticiaPadre .divNoticia .textoNoticia {
+      margin-top: 2rem;
+      background-color: rgba(255, 255, 255, 0.301);
+      border-radius: 1rem; }
+      .noticiasIndex .divNoticiaPadre .divNoticia .textoNoticia .encabezadoNoticia, .noticiasIndex .divNoticiaPadre .divNoticia .textoNoticia .cuerpoNoticia, .noticiasIndex .divNoticiaPadre .divNoticia .textoNoticia .linkNoticia {
+        margin-left: 0.5rem; }
+  .noticiasIndex .divNoticiaPadre .buttonNoticias {
+    color: #202f72;
+    width: 20rem;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    height: 4rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    border-color: #202f72; }
+    .noticiasIndex .divNoticiaPadre .buttonNoticias:hover {
+      background-color: #202f72;
+      color: #F46EBE; }
+
+.asideIndex {
+  display: flex;
+  flex-direction: row; }
+  .asideIndex .destacadoIndex {
+    background-color: #2941ab;
+    height: 420px; }
+    .asideIndex .destacadoIndex .h2Destacados {
+      margin-top: 1rem;
+      margin-left: 1rem;
+      color: #1ed760;
+      border-bottom: 1px solid #202f72; }
+    .asideIndex .destacadoIndex .divDestacados {
+      display: flex;
+      flex-direction: column; }
+      .asideIndex .destacadoIndex .divDestacados .imgDestacados {
+        width: 15rem;
+        margin-left: 2rem;
+        margin-right: 1rem; }
+      .asideIndex .destacadoIndex .divDestacados .textoDestacados {
+        margin-top: 1rem;
+        margin-left: 2.4rem;
+        font-size: 1.2rem;
+        background-color: #1ed75fb6;
+        width: 14rem;
+        border-radius: 0.5rem;
+        text-align: center; }
+      .asideIndex .destacadoIndex .divDestacados .linkDestacados {
+        color: white;
+        align-self: flex-end;
+        margin-right: 3rem; }
+  .asideIndex .forosIndex {
+    background-color: #96f0b6;
+    height: 420px; }
+    .asideIndex .forosIndex .h2Foros {
+      margin-top: 1rem;
+      margin-left: 1rem;
+      color: #202f72;
+      border-bottom: 1px solid #202f72; }
+    .asideIndex .forosIndex .listaForos .h3Foros {
+      margin-left: 2rem;
+      font-size: 1.3rem;
+      border-bottom: 1px solid #00000091; }
+    .asideIndex .forosIndex .listaForos .generalForos {
+      overflow: auto;
+      background-color: rgba(245, 245, 245, 0.336);
+      height: 18rem;
+      margin-left: 2rem;
+      border-radius: 1rem; }
+      .asideIndex .forosIndex .listaForos .generalForos .itemForos {
+        height: 1.5rem;
+        overflow: hidden;
+        border-bottom: solid 1px #00000033; }
+        .asideIndex .forosIndex .listaForos .generalForos .itemForos:hover {
+          background-color: rgba(245, 245, 245, 0.466);
+          height: auto; }
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  footer .divFooter {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row; }
+    footer .divFooter .idiomaFooter {
+      display: flex;
+      flex-direction: column; }
+      footer .divFooter .idiomaFooter .h3Footer {
+        border-bottom: white solid 1px; }
+      footer .divFooter .idiomaFooter .itemFooter {
+        color: white; }
+        footer .divFooter .idiomaFooter .itemFooter:hover {
+          color: #1ed760; }
+    footer .divFooter .asistenciaFooter {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1rem; }
+      footer .divFooter .asistenciaFooter .h3Footer {
+        border-bottom: white solid 1px; }
+      footer .divFooter .asistenciaFooter .itemFooter {
+        color: white; }
+        footer .divFooter .asistenciaFooter .itemFooter:hover {
+          color: #1ed760; }
+    footer .divFooter .redesFooter {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1rem; }
+      footer .divFooter .redesFooter .h3Footer {
+        border-bottom: white solid 1px; }
+      footer .divFooter .redesFooter .itemFooter {
+        color: white; }
+        footer .divFooter .redesFooter .itemFooter:hover {
+          color: #1ed760; }

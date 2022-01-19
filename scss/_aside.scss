@@ -1,0 +1,71 @@
+.asideIndex{
+    display: flex;
+    flex-direction: row;
+    .destacadoIndex{
+        background-color:$color-background3 ;
+        height: 420px;
+        .h2Destacados{
+            margin-top: 1rem;
+            margin-left: 1rem;
+            color: $color-spotify;
+            border-bottom: 1px solid $color-h2;
+        }
+        .divDestacados{
+                display: flex;
+                flex-direction: column;
+                .imgDestacados{
+                    width: 15rem;
+                    margin-left: 2rem;
+                    margin-right: 1rem;
+                }
+                .textoDestacados{
+                    margin-top: 1rem;
+                    margin-left: 2.4rem;
+                    font-size: 1.2rem;
+                    background-color:#1ed75fb6 ;
+                    width: 14rem;
+                    border-radius: 0.5rem;
+                    text-align: center;
+                }
+                .linkDestacados{
+                    color:white ;
+                    align-self:flex-end;
+                    margin-right: 3rem;
+                    
+                }
+        }
+    }
+    .forosIndex{
+        background-color:$color-background1 ;
+        height: 420px;
+        .h2Foros{
+            margin-top: 1rem;
+            margin-left: 1rem;
+            color: $color-h2;
+            border-bottom: 1px solid $color-h2;
+        }
+        .listaForos{
+            .h3Foros{
+                margin-left: 2rem;
+                font-size: 1.3rem;
+                border-bottom: 1px solid #00000091;
+            }
+            .generalForos{
+                overflow: auto;
+                background-color: rgba(245, 245, 245, 0.336);
+                height: 18rem;
+                margin-left: 2rem;
+                border-radius: 1rem;
+                .itemForos{
+                    height: 1.5rem;
+                    overflow:hidden;
+                    border-bottom: solid 1px #00000033 ;
+                    &:hover{
+                        background-color: rgba(245, 245, 245, 0.466);
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}

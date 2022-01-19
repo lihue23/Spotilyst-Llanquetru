@@ -1,0 +1,17 @@
+.headerIndex{
+    .navIndex{
+    background-color: black;
+        .container-fluid{
+            .logo{
+        margin-left: 2rem;
+            }
+        }
+        .navbar-collapse{
+            .navbar-nav{
+                .navCategoria:hover{
+                    color: $color-spotify;
+                }
+            }
+        }
+    }
+}

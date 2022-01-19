@@ -1,0 +1,36 @@
+.mainIndex{
+    background-color: $color-background1;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    .h2Novedades{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        color: $color-h2;
+        border-bottom: 1px solid $color-h2;
+    }
+    .carousel{
+        .carousel-inner{
+            .carousel-item{
+                .imgNovedades{
+                    height: 25rem;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}
+.buttonNovedades{
+    color: $color-h2;
+    width: 20rem;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    height: 4rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    border-color: $color-h2;
+    &:hover{
+        background-color: $color-h2;
+        color: #96f0b6;
+    }
+}
