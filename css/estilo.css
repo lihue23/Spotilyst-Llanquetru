@@ -13,6 +13,26 @@ body {
   .headerIndex .navIndex .navbar-collapse .navbar-nav .navCategoria:hover {
     color: #1ed760; }
 
+@media (min-width: 768px) {
+  .headerIndex .navIndex .container-fluid .logo {
+    margin-left: 2rem;
+    font-size: 2rem; }
+  .headerIndex .navIndex .navbar-collapse .navbar-nav .navCategoria {
+    font-size: 1.2rem;
+    margin-left: 1.5rem; } }
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: flex-end; }
+    .navbar-expand-lg .navbar-collapse .navbar-nav {
+      margin-top: 1rem; }
+      .navbar-expand-lg .navbar-collapse .navbar-nav .navCategoria {
+        font-size: 1.2rem;
+        align-items: center; } }
+
 .mainIndex {
   background-color: #96f0b6;
   height: 600px;
@@ -39,6 +59,23 @@ body {
   .buttonNovedades:hover {
     background-color: #202f72;
     color: #96f0b6; }
+
+@media (min-width: 768px) {
+  .divButton {
+    align-self: center; }
+    .divButton .buttonNovedades {
+      margin-left: 0rem; } }
+
+@media (min-width: 992px) {
+  .carousel {
+    align-self: center; }
+    .carousel .carousel-inner {
+      align-self: center;
+      width: 800px; }
+  .divButton {
+    align-self: center; }
+    .divButton .buttonNovedades {
+      margin-left: 0rem; } }
 
 .noticiasIndex {
   background-color: #F46EBE;

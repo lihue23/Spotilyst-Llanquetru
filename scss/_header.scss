@@ -15,3 +15,38 @@
         }
     }
 }
+@media (min-width: 768px){
+    .headerIndex{
+        .navIndex{
+            .container-fluid{
+                .logo{
+            margin-left: 2rem;
+            font-size: 2rem;
+                }
+            }
+            .navbar-collapse{
+                .navbar-nav{
+                    .navCategoria{
+                        font-size: 1.2rem;
+                        margin-left: 1.5rem
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        flex-direction: row;
+        justify-content: flex-end;
+        .navbar-nav{
+            margin-top: 1rem;
+            .navCategoria{
+                font-size: 1.2rem;
+                align-items: center;
+            }
+        }
+    }
+}

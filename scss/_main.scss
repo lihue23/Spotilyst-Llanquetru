@@ -34,3 +34,29 @@
         color: #96f0b6;
     }
 }
+@media (min-width: 768px){
+    .divButton{
+        align-self: center;
+        .buttonNovedades{
+            margin-left: 0rem;
+        }
+    }
+
+}
+@media (min-width: 992px){
+    .carousel{
+        align-self: center;
+        .carousel-inner{
+        align-self: center;
+        width: 800px;
+        }
+    }
+    .divButton{
+        align-self: center;
+        .buttonNovedades{
+            margin-left: 0rem;
+        }
+    }
+
+}
+
