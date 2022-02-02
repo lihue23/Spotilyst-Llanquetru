@@ -52,3 +52,15 @@ footer{
         }
     }
 }
+@media (min-width: 992px){
+    footer{
+        .divFooter{
+            .asistenciaFooter{
+                margin-left: 7rem;
+            }
+            .redesFooter{
+                margin-left: 7rem;
+            }
+        }
+    }    
+}

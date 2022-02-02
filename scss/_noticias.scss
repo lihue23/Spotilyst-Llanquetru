@@ -46,3 +46,23 @@
         }
     }
 }
+@media (min-width: 768px){
+    .noticiasIndex{
+        height: 830px;
+        .divNoticiaPadre{
+            .buttonNoticias{
+                margin-left: 14rem;
+            }
+        }
+    } 
+}
+@media (min-width: 992px){
+    .noticiasIndex{
+        height: 800px;
+        .divNoticiaPadre{
+            .buttonNoticias{
+                margin-left: 35rem;
+            }
+        }
+    }
+} 

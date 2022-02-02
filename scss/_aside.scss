@@ -1,6 +1,6 @@
 .asideIndex{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     .destacadoIndex{
         background-color:$color-background3 ;
         height: 420px;
@@ -13,10 +13,14 @@
         .divDestacados{
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 .imgDestacados{
                     width: 15rem;
                     margin-left: 2rem;
                     margin-right: 1rem;
+                    &:hover{
+                        transform: scale(1.1, 1.1);
+                    }
                 }
                 .textoDestacados{
                     margin-top: 1rem;
@@ -67,5 +71,11 @@
                 }
             }
         }
+    }
+}
+@media (min-width: 992px){
+    .asideIndex{
+        display: flex;
+        flex-direction: row;
     }
 }
