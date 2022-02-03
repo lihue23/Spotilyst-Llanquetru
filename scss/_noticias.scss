@@ -1,6 +1,6 @@
 .noticiasIndex{
     background-color: $color-background2;
-    height: 900px;
+    height: 730px;
     display: flex;
     flex-direction: column;
     .h2Noticias{
@@ -10,6 +10,7 @@
         border-bottom: 1px solid $color-h2;
     }
     .divNoticiaPadre{
+        overflow: auto;
         .divNoticia{
             margin-right: 10px;
             float: left;
@@ -25,15 +26,25 @@
                 margin-top: 2rem;
                 background-color: rgba(255, 255, 255, 0.301);
                 border-radius: 1rem;
-                .encabezadoNoticia, .cuerpoNoticia, .linkNoticia{
+                width: auto;
+                height: auto;
+                .encabezadoNoticia{
                     margin-left: 0.5rem;
+                    font-size: large;
+                }
+                .cuerpoNoticia{
+                    margin-left: 0.5rem;
+                    font-size: small;
                 }
             }
         }
+    }
+    .divButtonNoticias{
+        display: flex;
+        justify-content: center;
         .buttonNoticias{
             color: $color-h2;
             width: 20rem;
-            margin-left: 7rem;
             margin-top: 2rem;
             height: 4rem;
             border-radius: 2rem;
@@ -46,23 +57,40 @@
         }
     }
 }
+
 @media (min-width: 768px){
     .noticiasIndex{
-        height: 830px;
         .divNoticiaPadre{
-            .buttonNoticias{
-                margin-left: 14rem;
-            }
-        }
-    } 
-}
-@media (min-width: 992px){
-    .noticiasIndex{
-        height: 800px;
-        .divNoticiaPadre{
-            .buttonNoticias{
-                margin-left: 35rem;
+            .divNoticia{
+                .textoNoticia{
+                    width: auto;
+                    height: auto;
+                    .cuerpoNoticia{
+                        margin-left: 0.5rem;
+                        font-size: large;
+                    }
+                }
             }
         }
     }
 } 
+@media (min-width: 1024px){
+    .noticiasIndex{
+        height: 770px;
+        .divNoticiaPadre{
+            .divNoticia{
+                .textoNoticia{
+                    width: auto;
+                    height: auto;
+                    .encabezadoNoticia{
+                        font-size: x-large;
+                    }
+                    .cuerpoNoticia{
+                        margin-left: 0.5rem;
+                        font-size: larger;
+                    }
+                }
+            }
+        }
+    }
+}

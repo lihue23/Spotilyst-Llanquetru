@@ -20,28 +20,29 @@
         }
     }
 }
-.buttonNovedades{
-    color: $color-h2;
-    width: 20rem;
-    margin-left: 7rem;
-    margin-top: 2rem;
-    height: 4rem;
-    border-radius: 2rem;
-    font-size: 1.5rem;
-    border-color: $color-h2;
-    &:hover{
-        background-color: $color-h2;
-        color: #96f0b6;
+.divButton{
+    display: flex;
+    justify-content: center;
+    .buttonNovedades{
+        color: $color-h2;
+        width: 20rem;
+        margin-top: 2rem;
+        height: 4rem;
+        border-radius: 2rem;
+        font-size: 1.5rem;
+        border-color: $color-h2;
+        &:hover{
+            background-color: $color-h2;
+            color: #96f0b6;
+        }
     }
 }
 @media (min-width: 768px){
-    .divButton{
-        align-self: center;
-        .buttonNovedades{
-            margin-left: 0rem;
-        }
+    .imgNovedades{
+        height: 25rem;
+        padding: 1rem;
+        width: 35rem;
     }
-
 }
 @media (min-width: 992px){
     .carousel{
