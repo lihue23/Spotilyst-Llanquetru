@@ -1,3 +1,4 @@
+/*********Main Index*********/
 .mainIndex{
     background-color: $color-background1;
     height: 600px;
@@ -60,4 +61,55 @@
     }
 
 }
-
+/*********Main Novedades**********/
+.novedades__main{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 36, 36);
+    height: 50rem;
+    .novedades__main__secundaria{
+        background-color: rgb(36, 36, 36) ;
+        width: 220px;
+    }
+    .novedades__main__principal{
+        background-color: $color-background1;
+        width: -webkit-fill-available;
+        .novedades__main__principal__cuerpo{
+            display: flex;
+            flex-direction: column;
+            margin-left: 1rem;
+            .novedades__main__principal__cuerpo_categoria{
+                display: flex;
+                flex-direction: column;
+                margin-right: 0.2rem;
+                margin-top: 2rem;
+                .h2Categoria{
+                    color: $color-h2;
+                    margin-bottom: 0;
+                }
+                .elementoPadre{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    .elementoHijo{
+                        background-color: rgb(36, 36, 36);
+                        width: 5rem;
+                        height: 7rem;
+                        border-radius: 1rem;
+                        margin: 0.2rem;
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: nowrap;
+                        justify-content: center;
+                        align-items: center;
+                        overflow: auto;
+                        .imgLanzamiento{
+                            height: 4rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

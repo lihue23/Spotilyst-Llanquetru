@@ -33,6 +33,7 @@ body {
         font-size: 1.2rem;
         align-items: center; } }
 
+/*********Main Index*********/
 .mainIndex {
   background-color: #96f0b6;
   height: 600px;
@@ -78,6 +79,50 @@ body {
     align-self: center; }
     .divButton .buttonNovedades {
       margin-left: 0rem; } }
+
+/*********Main Novedades**********/
+.novedades__main {
+  display: flex;
+  flex-direction: row;
+  background-color: #242424;
+  height: 50rem; }
+  .novedades__main .novedades__main__secundaria {
+    background-color: #242424;
+    width: 220px; }
+  .novedades__main .novedades__main__principal {
+    background-color: #96f0b6;
+    width: -webkit-fill-available; }
+    .novedades__main .novedades__main__principal .novedades__main__principal__cuerpo {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1rem; }
+      .novedades__main .novedades__main__principal .novedades__main__principal__cuerpo .novedades__main__principal__cuerpo_categoria {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0.2rem;
+        margin-top: 2rem; }
+        .novedades__main .novedades__main__principal .novedades__main__principal__cuerpo .novedades__main__principal__cuerpo_categoria .h2Categoria {
+          color: #202f72;
+          margin-bottom: 0; }
+        .novedades__main .novedades__main__principal .novedades__main__principal__cuerpo .novedades__main__principal__cuerpo_categoria .elementoPadre {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: flex-start; }
+          .novedades__main .novedades__main__principal .novedades__main__principal__cuerpo .novedades__main__principal__cuerpo_categoria .elementoPadre .elementoHijo {
+            background-color: #242424;
+            width: 5rem;
+            height: 7rem;
+            border-radius: 1rem;
+            margin: 0.2rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            overflow: auto; }
+            .novedades__main .novedades__main__principal .novedades__main__principal__cuerpo .novedades__main__principal__cuerpo_categoria .elementoPadre .elementoHijo .imgLanzamiento {
+              height: 4rem; }
 
 .noticiasIndex {
   background-color: #F46EBE;
