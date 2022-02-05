@@ -66,10 +66,43 @@
     display: flex;
     flex-direction: row;
     background-color: rgb(36, 36, 36);
-    height: 50rem;
+    height: auto;
     .novedades__main__secundaria{
         background-color: rgb(36, 36, 36) ;
         width: 220px;
+        .novedades__main__secundaria__cuerpo{
+            display: flex;
+            flex-direction: column;
+            margin-left: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            margin-left: 0.5rem;
+            margin-top: 2rem;
+            background-color: $color-background3;
+            margin-right: 0.5rem;
+            border-radius: 0.7rem;
+            align-items: center;
+            &:hover{
+                background-color: rgb(69, 90, 182);;
+            }
+            .novedades__h2Destacado{
+                color: $color-spotify;
+                font-size: larger;
+                margin-left: 0.5rem;
+            }
+            .novedades__imgDestacado{
+                width: 7rem;
+            }
+            .novedades__textoDestacado{
+                color: black;
+                width: 7rem;
+                border-radius: 0.7rem;
+                background-color: #1ed75fb6;
+                margin-top: 0.3rem;
+                margin-bottom: 0.4rem;
+                text-align: -webkit-center;
+            }
+        }
     }
     .novedades__main__principal{
         background-color: $color-background1;
@@ -86,6 +119,7 @@
                 .h2Categoria{
                     color: $color-h2;
                     margin-bottom: 0;
+                    border-bottom: 1px solid #202f724b;
                 }
                 .elementoPadre{
                     display: flex;
@@ -103,13 +137,48 @@
                         flex-wrap: nowrap;
                         justify-content: center;
                         align-items: center;
-                        overflow: auto;
+                        overflow: hidden;
+                        &:hover{
+                            background-color: rgb(61, 61, 61);
+                        }
                         .imgLanzamiento{
                             height: 4rem;
                         }
                     }
                 }
             }
+        }
+    }
+}
+@media (min-width: 768px){
+    .novedades__main{
+        .novedades__main__principal{
+            .novedades__main__principal__cuerpo{
+                .novedades__main__principal__cuerpo_categoria{
+                    .elementoPadre{   
+                        .elementoHijo{
+                            width: 8rem;
+                            height: 10rem;
+                            &:hover{
+                                background-color: rgb(61, 61, 61);
+                            }
+                            .imgLanzamiento{
+                                height: 7rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
+
+/********main registro*******/
+.section__contacto{
+    margin: 1rem;
+    .section__formulario{
+        .col-sm-10{
+            margin-bottom: 1rem;
         }
     }
 }

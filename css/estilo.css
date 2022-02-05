@@ -85,10 +85,38 @@ body {
   display: flex;
   flex-direction: row;
   background-color: #242424;
-  height: 50rem; }
+  height: auto; }
   .novedades__main .novedades__main__secundaria {
     background-color: #242424;
     width: 220px; }
+    .novedades__main .novedades__main__secundaria .novedades__main__secundaria__cuerpo {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      margin-left: 0.5rem;
+      margin-top: 2rem;
+      background-color: #2941ab;
+      margin-right: 0.5rem;
+      border-radius: 0.7rem;
+      align-items: center; }
+      .novedades__main .novedades__main__secundaria .novedades__main__secundaria__cuerpo:hover {
+        background-color: #455ab6; }
+      .novedades__main .novedades__main__secundaria .novedades__main__secundaria__cuerpo .novedades__h2Destacado {
+        color: #1ed760;
+        font-size: larger;
+        margin-left: 0.5rem; }
+      .novedades__main .novedades__main__secundaria .novedades__main__secundaria__cuerpo .novedades__imgDestacado {
+        width: 7rem; }
+      .novedades__main .novedades__main__secundaria .novedades__main__secundaria__cuerpo .novedades__textoDestacado {
+        color: black;
+        width: 7rem;
+        border-radius: 0.7rem;
+        background-color: #1ed75fb6;
+        margin-top: 0.3rem;
+        margin-bottom: 0.4rem;
+        text-align: -webkit-center; }
   .novedades__main .novedades__main__principal {
     background-color: #96f0b6;
     width: -webkit-fill-available; }
@@ -103,7 +131,8 @@ body {
         margin-top: 2rem; }
         .novedades__main .novedades__main__principal .novedades__main__principal__cuerpo .novedades__main__principal__cuerpo_categoria .h2Categoria {
           color: #202f72;
-          margin-bottom: 0; }
+          margin-bottom: 0;
+          border-bottom: 1px solid #202f724b; }
         .novedades__main .novedades__main__principal .novedades__main__principal__cuerpo .novedades__main__principal__cuerpo_categoria .elementoPadre {
           display: flex;
           flex-direction: row;
@@ -120,9 +149,26 @@ body {
             flex-wrap: nowrap;
             justify-content: center;
             align-items: center;
-            overflow: auto; }
+            overflow: hidden; }
+            .novedades__main .novedades__main__principal .novedades__main__principal__cuerpo .novedades__main__principal__cuerpo_categoria .elementoPadre .elementoHijo:hover {
+              background-color: #3d3d3d; }
             .novedades__main .novedades__main__principal .novedades__main__principal__cuerpo .novedades__main__principal__cuerpo_categoria .elementoPadre .elementoHijo .imgLanzamiento {
               height: 4rem; }
+
+@media (min-width: 768px) {
+  .novedades__main .novedades__main__principal .novedades__main__principal__cuerpo .novedades__main__principal__cuerpo_categoria .elementoPadre .elementoHijo {
+    width: 8rem;
+    height: 10rem; }
+    .novedades__main .novedades__main__principal .novedades__main__principal__cuerpo .novedades__main__principal__cuerpo_categoria .elementoPadre .elementoHijo:hover {
+      background-color: #3d3d3d; }
+    .novedades__main .novedades__main__principal .novedades__main__principal__cuerpo .novedades__main__principal__cuerpo_categoria .elementoPadre .elementoHijo .imgLanzamiento {
+      height: 7rem; } }
+
+/********main registro*******/
+.section__contacto {
+  margin: 1rem; }
+  .section__contacto .section__formulario .col-sm-10 {
+    margin-bottom: 1rem; }
 
 .noticiasIndex {
   background-color: #F46EBE;
