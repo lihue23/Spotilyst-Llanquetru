@@ -170,6 +170,134 @@ body {
   .section__contacto .section__formulario .col-sm-10 {
     margin-bottom: 1rem; }
 
+/**********main Noticias**********/
+.main__noticias {
+  background-color: #242424;
+  height: auto; }
+  .main__noticias .main__noticias__cuerpo {
+    background-color: #F46EBE;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    height: -webkit-fill-available;
+    overflow: auto; }
+    .main__noticias .main__noticias__cuerpo .main__noticias__principal {
+      margin: 0.5rem;
+      width: -webkit-fill-available; }
+      .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__principal__h2 {
+        color: #202f72;
+        font-size: x-large; }
+      .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__rowPadre {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; }
+        .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__rowPadre .main__noticias__rowHijo {
+          height: 7rem;
+          width: 12rem;
+          background-color: rgba(255, 255, 255, 0.301);
+          margin-top: 1rem;
+          border-radius: 0.5rem;
+          display: flex;
+          flex-direction: row;
+          overflow: auto; }
+          .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__rowPadre .main__noticias__rowHijo:hover {
+            background-color: rgba(255, 255, 255, 0.493); }
+          .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__rowPadre .main__noticias__rowHijo .main__noticias__rowImg {
+            width: 5rem;
+            float: left; }
+          .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__rowPadre .main__noticias__rowHijo .main__noticias__rowTexto {
+            font-size: small;
+            margin-left: 0.2rem;
+            color: black; }
+      .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__columPadre {
+        margin-top: 2rem;
+        padding-left: 0; }
+        .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__columPadre .main__noticias__columHijo {
+          background-color: rgba(255, 255, 255, 0.301);
+          height: 12rem;
+          width: 14rem;
+          margin-top: 1rem;
+          border-radius: 1rem;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column; }
+          .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__columPadre .main__noticias__columHijo:hover {
+            background-color: rgba(255, 255, 255, 0.493);
+            height: auto; }
+          .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__columPadre .main__noticias__columHijo .columEncabezado {
+            font-weight: bold; }
+  .main__noticias .main__noticias__aside {
+    width: revert; }
+    .main__noticias .main__noticias__aside .card {
+      margin-top: 3rem;
+      height: auto;
+      background-color: rgba(255, 255, 255, 0.301); }
+      .main__noticias .main__noticias__aside .card:hover {
+        background-color: rgba(255, 255, 255, 0.493); }
+      .main__noticias .main__noticias__aside .card .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        font-size: inherit;
+        overflow: auto; }
+        .main__noticias .main__noticias__aside .card .card-body .btn-primary {
+          background-color: #202f72; }
+
+@media (min-width: 768px) {
+  .main__noticias .main__noticias__cuerpo {
+    margin-left: 2rem;
+    margin-right: 2rem; }
+    .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__principal__h2 {
+      font-size: xx-large; }
+    .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__rowPadre {
+      flex-wrap: nowrap; }
+      .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__rowPadre .main__noticias__rowHijo {
+        margin-right: 0.5rem;
+        width: 10rem; }
+        .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__rowPadre .main__noticias__rowHijo .main__noticias__rowTexto {
+          font-size: smaller; }
+    .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__columPadre .main__noticias__columHijo {
+      width: 31rem; } }
+
+@media (min-width: 1024px) {
+  .main__noticias .main__noticias__cuerpo {
+    margin-left: 3rem;
+    margin-right: 3rem; }
+    .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__rowPadre {
+      flex-wrap: nowrap; }
+      .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__rowPadre .main__noticias__rowHijo {
+        margin-right: 0.5rem;
+        width: 12rem; }
+        .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__rowPadre .main__noticias__rowHijo .main__noticias__rowTexto {
+          font-size: smaller;
+          font-weight: 500; }
+    .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__columPadre .main__noticias__columHijo {
+      width: 37rem; }
+  .main__noticias .main__noticias__aside {
+    width: fit-content; }
+    .main__noticias .main__noticias__aside .card {
+      margin-top: 4rem;
+      height: auto; } }
+
+@media (min-width: 1440px) {
+  .main__noticias .main__noticias__cuerpo {
+    margin-left: 5rem;
+    margin-right: 5rem; }
+    .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__rowPadre .main__noticias__rowHijo {
+      margin-right: 0.5rem;
+      width: 15rem; }
+      .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__rowPadre .main__noticias__rowHijo .main__noticias__rowTexto {
+        font-size: revert;
+        font-weight: 500; }
+    .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__columPadre .main__noticias__columHijo {
+      width: 46rem; }
+  .main__noticias .main__noticias__aside {
+    width: fit-content; }
+    .main__noticias .main__noticias__aside .card {
+      margin-top: 4rem;
+      height: auto; } }
+
+/*******Noticias Index*****/
 .noticiasIndex {
   background-color: #F46EBE;
   height: 730px;
