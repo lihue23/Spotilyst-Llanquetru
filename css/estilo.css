@@ -226,7 +226,10 @@ body {
             background-color: rgba(255, 255, 255, 0.493);
             height: auto; }
           .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__columPadre .main__noticias__columHijo .columEncabezado {
-            font-weight: bold; }
+            font-weight: bold;
+            margin-left: 0.5rem; }
+          .main__noticias .main__noticias__cuerpo .main__noticias__principal .main__noticias__columPadre .main__noticias__columHijo .columCuerpo {
+            margin-left: 0.5rem; }
   .main__noticias .main__noticias__aside {
     width: revert; }
     .main__noticias .main__noticias__aside .card {
@@ -242,6 +245,11 @@ body {
         overflow: auto; }
         .main__noticias .main__noticias__aside .card .card-body .btn-primary {
           background-color: #202f72; }
+
+@media (max-width: 375px) {
+  .main__noticias .main__noticias__cuerpo {
+    margin-left: 0;
+    margin-right: 0; } }
 
 @media (min-width: 768px) {
   .main__noticias .main__noticias__cuerpo {
